@@ -1,0 +1,38 @@
+This is for the modal for the accessibility settings
+UID = UNIQUE_ID_NAME, which means you can name whatever you'd like here
+
+  <div id="accessibility_modal" class="modal">
+    <div class=modal_content>//content of modal
+      <div class=modal_header>//header of modal
+        //Header of the tab
+        <span class="close">&times;</span>
+      </div>
+      <div id= accessibility_modal >//body of modal
+        <div id=accessibility_modal>//Body of the accessibility settings including:
+          -Brightness(don't edit this)
+          <div class="slidecontainer">
+            <input type="range" min="0" max="7" step="1" value="0" oninput="sliderChanger(this.value)" class="slider" id="myRange">
+            <p output id="show"></p> 
+						<div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  						<span class="popuptext" id="show"></span>
+            </div>
+          </div>
+          -Speech audibility
+          -Font-size control(don't edit this)
+          <div class="slidecontainer">
+            <input type="range" min="1.0" max="2.6" step=".1" value="0" class="slider" id="myRange">
+            <p output id="show"></p> 
+						<div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  						<span class="popuptext" id="show"></span>
+						</div>
+          </div>
+          -Font-type 
+        </div>
+      </div>
+   </div>   
+  </div> 
+
+For more help go here
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom //this is the edit section of the code where you just test out what happens...
+
+https://www.w3schools.com/howto/howto_css_modals.asp // this explains the concepts of modals but no editing... (go to the section that says "Bottom Modal")

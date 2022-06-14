@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+/*--logo--*/
+/*-- supposed to lead to WEISS HS PAGE--*/
+.logo{
+  margin-left: 100px;
+
+}
+
+/*-- navigation bar--*/
+.menu_list{
+  color: black;
+}
+
+.nav-item a{
+  list-style: none;
+  font-family: 'Varela Round', sans-serif;
+  cursor: pointer;
+  color:#000;
+  align: center;
+  font-size: 16px;
+}
+
+.nav-item a:hover{
+  color: #2B761A;
+}
+
+/*--banner--*/
+
+.learn{
+  background-color: #2B761A;
+  border-radius: 40px;
+  padding: 17px 34px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 15px;
+  font-family: 'Nunito 300', sans-serif;
+}
+
+.action{
+  background: transparent;
+  color: #2B761A;
+  border:  2px solid #2B761A;
+  padding: 15px 34px;
+  border-radius: 40px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Nunito 300', sans-serif;
+}
+
+.btn{
+  padding: 0 !important;
+}
+
+.hero-banner {
+  align: center !important;
+}
+.hero-banner h1 {
+  font-size: 600%;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+
+.col-lg-6 lead p {
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+/* WHAT IS CARBON FOOTPRINT 2 cards --*/
+
+#container{
+  margin-top: 30px;
+
+}
+
+.card{
+  border: none !important;
+  width: 80% !important;
+}
+
+.card-body{
+  /* Change background color */
+  background-color: #e3e3e3;
+  align: center !important;
+  /* Remove border */
+  border: none;
+
+  /* Add space between the border and the content */
+  padding: 20px;
+  padding-left: 15px ;
+  border-radius: 30px;
+
+}
+
+
+/* Style div elements that have class is card-title*/
+.card-title {
+  font-size: 27px;
+  line-height: 35px;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Style p element for the card*/
+.card-text p {
+  line-height: 150%;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+/* Add space around the details */
+.card-text {
+  padding-top: 15px; 
+  width: 90%;
+}
+
+/* WHY CO2 RELEVANT? */
+.mountain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+}
+.image {
+  flex-basis: 40%;
+  margin-top: 100px;
+}
+.text {
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  width: 75%;
+  align: left;
+}
+
+.text h3{
+  padding-bottom: 50px;
+}
+
+.text p{
+  width: 80%;
+}
+
+/* SAVE ENVIRONMENT TODAY */
+.link-info h5 {
+  font-family: 'Varela round', san-serif;
+  color: black;
+
+}
+
+.link-info a {
+  font-family: 'varela round', san-serif;
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
+.link-info a:hover {
+  color: rgb(58, 58, 58);
+}
+
+:root {
+  --surface-color: #fff;
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box
+}
+
+.card__image {      
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;      
+  border-radius: calc(var(--curve) * 1px);    
+  background-color: var(--surface-color);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: var(--surface-color);
+  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}       
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #6A515E;
+}
+
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";  
+  font-size: .8em; 
+  color: #D7BDCA;  
+}
+
+.card__status {
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #D7BDCA;
+  font-family: "MockFlowFont";   
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: auto;
+  -webkit-scrollbar: none;
+}
+
+.card__description::-webkit-scrollbar {
+  display: none;
+}
+
+/*-- WHAT ENVIRONMENTALISTS SAY ---*/
+
+.home-testimonial {
+    background-color: #e3e3e3;
+    height: 380px;
+}
+
+.home-testimonial-bottom {
+    background-color: transparent;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px
+}
+
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.testimonial-inner {
+  position: relative;
+  top: -174px
+}
+
+.testimonial-pos {
+  position: relative;
+  top: 24px
+}
+
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px
+}
+
+.col-md-12 h3{
+  font-family: 'Nunito', sans-serif;
+  font-size: 27px;
+  color: black;
+}
+
+.color-grey-3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+
+
+/* Design position FOOTER */
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+/* This is the css needed for the small background info about us at the bottom of the page, also it's inside the footer tag*/ 
+.description_paragraph
+{
+	
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif; 
+}
+
+
+/*Fix this to your specification... controls the modal slide of the accessibility page
+*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal_content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 25%;
+  height: 45%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+#modal_button {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal_head {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes slideOut {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideOut {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}

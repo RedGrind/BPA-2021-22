@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+/*--logo--*/
+/*-- supposed to lead to WEISS HS PAGE--*/
+.logo{
+  margin-left: 100px;
+
+}
+
+/*-- navigation bar--*/
+.menu_list{
+  color: black;
+}
+
+.nav-item a{
+  list-style: none;
+  font-family: 'Varela Round', sans-serif;
+  cursor: pointer;
+  color:#000;
+  align-items: center;
+  font-size: 16px;
+}
+
+.nav-item a:hover{
+  color: #2B761A;
+}
+
+/*--banner--*/
+.hero-banner {
+  align-items: center !important;
+}
+.hero-banner h1 {
+  font-size: 400%;
+  font-family: 'Varela Round', sans-serif;
+  color: balck;
+}
+
+
+/* BANNER TEXT */
+
+
+.lead p{
+  font-family: 'Varela Round', san-serif;
+  color: #000;
+  font-size: 60px;
+}
+
+/* READ ARTICLES */
+
+.bg-light .word p {
+  font-family: 'Valero Round', san-serif !important;
+}
+
+
+/* CARDS */
+
+
+.container {
+    transform-style: preserve-3d;
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.5s ease;
+}
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(107, 150, 110,0.7), rgb(232,232,232));
+    transform: translateZ(100px);
+
+}
+
+.container .box .body .content div h3 {
+    letter-spacing: 1px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal_content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 25%;
+  height: 45%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+#modal_button {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal_head {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes slideOut {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideOut {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}

@@ -1,0 +1,767 @@
+	<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  <title>Info</title>
+	  <link rel="stylesheet" href="info.css">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	 crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	  <script src="script.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2905b57090.js" crossorigin="anonymous"></script>
+    <script>
+      function show(visible, invisible){
+        document.getElementById(visible).style.display='block';
+        document.getElementById(invisible).style.display= 'none';
+        return false;
+      }
+      
+    </script>
+  </head>
+  <body>
+    <!--Main Info page starts here-->
+    <div id="main_page" class="nospace">
+      <!---Add space between section--->
+      <div class="p-3" style="color: transparent;"></div>
+        <div class="header">
+          <!-- Links from the home page to other parts of the website such as the sources page, about us page, and the info page --> 
+          
+          
+          <div class= "menu_list navbar row" style="box-shadow: none;">
+            <a class="navbar-brand logo col-sm-2 " href="https://www.pfisd.net/weiss"><img src="img/logo.png" width="90px" height="90px" class="img-fluid img-responsive"></a>
+            <ul class="nav justify-content-center col-sm-8">
+                <li class="nav-item read">
+                  <a class="nav-link active read" href="index.html">Home</a>
+                </li>
+                <li class="nav-item read">
+                  <a class="nav-link read" href="info.html">Info</a>
+                </li>
+                <li class="nav-item read">
+                  <a class="nav-link read" href="about.html">About</a>
+                </li>
+                <li class="nav-item read">
+                  <a class="nav-link read" href="sources.html">Sources</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="hero-banner">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <!--banner text-->
+                    <div class="col-lg-6">
+                      <p class="read lead" style="color: black !important;">TOGETHER WE</br></p>
+                
+                      <h1 class="read big-text pl-4" style="color: #396C1C;">PROTECT </br>OUR PLANET</h1>
+                
+                    </div>
+                    <!---- banner illustration image -->
+                    <div class="col-lg-6">
+                      <img src="img/hand-earth.png" class="img-fluid img-responsive" alt="Visual representation of someone measuring the carbon footprint on the Earth using a ruler stick" width="650px" height="500px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+					
+          <section class="bg-light">
+						<!-- This section is all about the buttons-->
+            
+            <div class="container d-flex align-items-center justify-content-center flex-wrap p-5">
+
+              <div class="word p-4" style="font-family: 'Valero Round', san-serif;">
+                <p style="font-size: 20px" class="read">Go To: </p>
+              </div>
+
+              <div class="Political p-4">
+                <a href="#pol">
+                  <button class= "political_aspects btn btn-primary btn-lg"  style="font-family: 'varela round', san-serif;">
+                    <span class="spinner-grow spinner-grow-sm read shadow""></span>&nbsp;POLITICAL
+                  </button>
+                </a>
+              </div>
+
+              <div class="Economic p-4">
+                <a href="#econ">
+                  <button class= "economic_aspects btn btn-primary btn-lg" style="font-family: 'varela round', san-serif;">
+                    <span class="spinner-grow spinner-grow-sm read shadow"></span>&nbsp;ECONOMIC
+                  </button>
+                </a>
+              </div>
+
+              <div class="Social p-4">
+                <a href="#soc">
+                  <button class= "social_aspects btn btn-primary btn-lg" style="font-family: 'varela round', san-serif;">
+                    <span class="spinner-grow spinner-grow-sm read shadow"></span>&nbsp;SOCIAL
+                  </button>
+                </a>
+              </div>
+            </div>
+						
+          </section>
+
+          <div class="py-5" style="color: transparent"></div>
+
+          
+          <section id="pol" class="p-5">
+            <!--This section is dedicated to the political aspects-->
+            <div class="poliitcal">
+              <h1 class="p-5 read" style="font-family: 'varela round', san-serif;">POLITICAL</h1>
+              <div class="py-3" style="color: transparent;"></div>
+              <!--Cards for the political goes here-->
+							<!--The content that is inside each of the political aspects is a way that the reader could reduce their carbon footprint-->
+              <div class="container d-flex align-items-center justify-content-around flex-wrap">
+                <div class="box p-5">
+                    <div class="body shadow shadow-lg" >
+                        <div class="imgContainer"> <img src="https://pro2-bar-s3-cdn-cf3.myportfolio.com/c7c6d7d1-ef89-4c57-93ed-c935d1aa323f/4f5f3e91-c4e2-4994-bf15-7f93696b0e96_rw_1920.png?h=53d0d9733a1b201cffe29c2b0e59d7c6g" alt="" > </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center" >
+                            <div>
+                                <h3 class="read text-white fs-5 read">Establishing a Public Transit System</h3>
+                                <p class="read fs-6 text-white read" >Transportation is the largest source of air pollution across the world. Public transit can help to drastically reduce the amount of air pollution that vehicles release into the atmosphere, which can drastically reduce your carbon footprint if you ride one of those vehicles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box p-5">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://www.europarl.europa.eu/resources/library/images/20210630PHT07404/20210630PHT07404-ml.jpg" alt=""> </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <h3 class="read text-white fs-5">Carbon Policing</h3>
+                                <p class="read fs-6 text-white">The Government could impose “carbon taxes and cap-and-trade programs” that could exercise an amount of control over the limitation of carbon emission produced by businesses with special permits “for each ton (of carbon) they emit”, and taxes for “each ton of greenhouse gases they (the businesses) emit”.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box p-5">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://www.utility.rentals/wp-content/uploads/2021/06/UtilityRentals-BlogPosts-Energy-Efficiency-May-2021-01.png" alt=""> </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                              <h3 class="read text-white fs-5">Increase Energy Efficiency</h3>
+                              <p class="read fs-6 text-white">Energy efficiency is the ability to reduce the energy spent without affecting its quality of use. The government should offer tax breaks to utilities that could improve energy efficiency to various “consumer products” (such as vehicles, appliances, and housings).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+              </div>
+              <div class="py-5" style="color: transparent;"></div>
+              <div class="container d-flex align-items-center justify-content-center flex-wrap">
+                <button class="btn btn-outline-dark btn-lg shadow-lg" onclick="return show('political_page', 'main_page');" style="font-family: 'varela round', san-serif;">SEE ALL</button> 
+              </div>            
+            </div>
+            <div class="py-3" style="color: transparent"></div>
+          </section>
+
+          <section id="econ" class="bg-light p-5">
+            <!--This section is dedicated to THREE economic aspects-->
+            <div class="economic">
+              <h1 class="p-5 read" style="font-family: 'varela round', san-serif;">ECONOMIC</h1>
+              <div class="py-3" style="color: transparent;"></div>
+              <!--Cards for the economic goes here-->
+              <div class="container d-flex align-items-center justify-content-around flex-wrap">
+                <div class="box">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://mk0paulsrubbisheu2nx.kinstacdn.com/wp-content/uploads/2018/07/Waste-Management-Recycling-Plant-1024x676.jpg" alt="" > </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center" >
+                            <div>
+                                <h3 class="read text-white fs-5">Landfill recycling </h3>
+                                <p class="read fs-sm-7 text-white">Decomposition produce harmful methane emissions that damages the environment. Companies such as “Renergy” could partner with municipalities and food manufacturers to redirect their organic waste away from landfills and help reduce carbon emissions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://www.clipartkey.com/mpngs/m/23-230855_renewable-energy-logo-design.png" alt=""> </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <h3 class="read text-white fs-5">Production of Renewable Energy</h3>
+                                <p class="read fs-6 text-white">More than 50 percent of electricity in the United States comes from polluting coal-fired power plants. Renewable energy sources like solar, wind and biomass reduce air pollution and generate no greenhouse gas emissions from fossil fuels.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://www.computersciencedegreehub.com/wp-content/uploads/2020/06/Is-Telecommunications-a-Growing-Field-1024x683.jpg" alt=""> </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-around">
+                            <div>
+                                <h3 class="read text-white fs-5">Telecommunication</h3>
+                                <p class="read fs-6 text-white">Businesses should implement telecommunication meetings such as Zoom, Skype, or Microsoft Team instead of having to physically meet at a centralized location, which requires transportation to that location. Less transportation would mean less energy wasted on travel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="py-3 bg-light"></div>
+              <div class="container d-flex align-items-center justify-content-center flex-wrap">
+                <button class="btn btn-outline-dark btn-lg shadow shadow-lg" onclick="return show('economic_page', 'main_page');"style="font-family: 'varela round', san-serif;">SEE ALL</button>
+                
+              </div>
+              <div class="py-5 bg-light"></div>
+              <div class="py-5 bg-light"></div>
+          </section>
+
+          <section class="p-5">
+            <!--This section is dedicated to THREE social aspects-->
+            <div class="social"id="soc">
+              <h1 class="p-5 read"style="font-family: 'varela round', san-serif;">SOCIAL</h1>
+              <div class="py-3" style="color: transparent;"></div>
+              <div class="container d-flex align-items-center justify-content-around flex-wrap">
+                <div class="box">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://assets-news.housing.com/news/wp-content/uploads/2021/06/14175932/A-guide-to-water-conservation-methods-and-its-importance-FB-1200x700-compressed.jpg" alt="" > </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center" >
+                            <div>
+                                <h3 class="read text-white fs-5">Reduce Daily Water Usage</h3>
+                                <p class="read fs-6 text-white">It doesn’t mean that you shouldn’t drink any water in a day, I want to stay hydrated for my health as well, but you should try to limit the amount of water that you use to bathe, brush your teeth, wash your dishes, wash your clothes and flush your  toilets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="http://prod-upp-image-read.ft.com/75e8de86-49b1-11ea-aeb3-955839e06441" alt=""> </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <h3 class="read text-white fs-5">Go Electric</h3>
+                                <p class="read fs-6 text-white">Whether it’s an electric car or electric appliance, being electrically powered instead of gas-powered drastically reduces your carbon footprint and is ultimately helping the environment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                  <div class="body shadow shadow-lg">
+                      <div class="imgContainer"> <img src="https://naveco.ca/wp-content/uploads/2019/04/Screen-Shot-2019-04-10-at-11.43.36-AM.png" alt=""> </div>
+                      <div class="content d-flex flex-column align-items-center justify-content-center">
+                          <div>
+                              <h3 class="read text-white fs-5">Install an energy source to power your home.</h3>
+                              <p class="read fs-6 text-white">Whether it’s some solar panels, hydro-electric turbines, wind turbines, or even a solar oven, these inexhaustible energy sources will always be viable in producing clean viable electricity, that you can use to power up different things or even sell it to the grid and be making extra money from it.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+							<div class="py-5" style="color: transparent;"></div>
+              <div class="container d-flex align-items-center justify-content-center flex-wrap">
+                <button class="btn btn-outline-dark btn-lg shadow shadow-lg" onclick="return show('social_page', 'main_page');"style="font-family: 'varela round', san-serif;">SEE ALL</button> 
+              </div>
+              <div class= "py-3" style="color: transparent;"> </div>
+            </div>
+          </section>
+    </div>
+          
+    <!--Political sub page starts here-->      
+    <div id="political_page" class="nospace" style="display: none">
+
+      <div id="main_page2">
+							<div class="header">
+								<!-- Links from the home page to other parts of the website such as the sources page, about us page, and the info page --> 
+								
+								
+								<div class= "menu_list navbar row" style="box-shadow: none;">
+									<a class="navbar-brand logo col-sm-2 " href="https://www.pfisd.net/weiss"><img src="img/logo.png" width="90px" height="90px" class="img-fluid img-responsive"></a>
+									<ul class="nav justify-content-center col-sm-8">
+											<li class="nav-item">
+												<a class="nav-link active read" href="index.html">Home</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="info.html">Info</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="about.html">About</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="sources.html">Sources</a>
+											</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+      <div class="py-3" style="color: transparent;"></div>
+      <div class="py-3 bg-light"></div>
+      <section class="p-5 bg-light">
+        <h1 class="read" style="font-family: 'varela round', san-serif;">POLITICAL</h1>
+        <div class="py-3" style="color: transparent;"></div>
+        <p class="p-3 read" style="font-family: 'varela round', san-serif;">This page is dedicated to display the political tips and tricks of different ways that governments and people could perform to reduce the carbon footprint in that community.</p>
+      </section>
+      <div class="py-5" style="color: transparent;"></div>
+      <div class="py-5" style="color: transparent;"></div>
+        <!--Full page about the political aspect-->
+      <section class="p-5">
+          <div class="container d-flex align-items-center justify-content-around flex-wrap">
+              <div  class="box">
+                  <div class="body shadow shadow-lg">
+                      <div class="imgContainer"> <img src="https://pro2-bar-s3-cdn-cf3.myportfolio.com/c7c6d7d1-ef89-4c57-93ed-c935d1aa323f/4f5f3e91-c4e2-4994-bf15-7f93696b0e96_rw_1920.png?h=53d0d9733a1b201cffe29c2b0e59d7c6" alt="" > </div>
+                      <div class="content d-flex flex-column align-items-center justify-content-center" >
+                          <div>
+                              <h3 class="read text-white fs-5">Establishing a Public Transit System</h3>
+                              <p class="read fs-6 text-white">Transportation is the largest source of air pollution across the world. Public transit can help to drastically reduce the amount of air pollution that vehicles release into the atmosphere, which can drastically reduce your carbon footprint if you ride one of those vehicles.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="box">
+                  <div class="body shadow shadow-lg">
+                      <div class="imgContainer"> <img src="https://www.europarl.europa.eu/resources/library/images/20210630PHT07404/20210630PHT07404-ml.jpg" alt=""> </div>
+                      <div class="content d-flex flex-column align-items-center justify-content-center">
+                          <div>
+                              <h3 class="read text-white fs-5">Carbon Policing</h3>
+                              <p class="read fs-6 text-white">The Government could impose “carbon taxes and cap-and-trade programs” that could exercise an amount of control over the limitation of carbon emission produced by businesses with special permits “for each ton (of carbon) they emit”, and taxes for “each ton of greenhouse gases they (the businesses) emit”.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="box">
+                  <div class="body shadow shadow-lg">
+                      <div class="imgContainer"> <img src="https://www.utility.rentals/wp-content/uploads/2021/06/UtilityRentals-BlogPosts-Energy-Efficiency-May-2021-01.png" alt=""> </div>
+                      <div class="content d-flex flex-column align-items-center justify-content-center">
+                          <div>
+                            <h3 class="read text-white fs-5">Increase Energy Efficiency</h3>
+                            <p class="read fs-6 text-white">Energy efficiency is the ability to reduce the energy spent without affecting its quality of use. The government should offer tax breaks to utilities that could improve energy efficiency to various “consumer products” (such as vehicles, appliances, and housings).</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            
+            </div>
+
+        <div class="py-5" style="color: transparent;"></div>
+
+        <div class="container d-flex align-items-center justify-content-around flex-wrap">
+              <div class="box">
+                <div class="body shadow shadow-lg">
+                  <div class="imgContainer"> <img src="https://compact.org/wp-content/uploads/2018/10/Voting-illustration.png" alt=""> </div>
+                  <div class="content d-flex flex-column align-items-end justify-content-start">
+                      <div>
+                          <h3 class="text-white read fs-5">VOTE</h3>
+                          <p class="fs-6 read text-white">The politicians and government officials running for office may or may not have a climate solution plan. Doing this as well makes sure that your voice is heard during a democratic election by simply casting one ballot.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+        
+      <div class="py-5" style="color: transparent"></div>
+      <div class="container d-flex align-items-center justify-content-center flex-wrap">
+        <button class="back btn btn-outline-secondary btn-lg shadow shadow-lg" onclick="return show('main_page', 'political_page');" id="return_pol">GO BACK</button>
+      </div>
+      <div class="py-5" style="color: transparent;"></div>
+    </div>
+
+    <!--Social sub page starts here-->
+    <div id="social_page" class="nospace" style="display: none">
+
+			<div id="container" class="nospace">
+						<!---Add space between section--->
+						<div class="p-3" style="color: transparent;"></div>
+
+
+						<div id="main_page2">
+							<div class="header">
+								<!-- Links from the home page to other parts of the website such as the sources page, about us page, and the info page --> 
+								
+								
+								<div class= "menu_list navbar row" style="box-shadow: none;">
+									<a class="navbar-brand logo col-sm-2 " href="https://www.pfisd.net/weiss"><img src="img/logo.png" width="90px" height="90px" class="img-fluid img-responsive"></a>
+									<ul class="nav justify-content-center col-sm-8">
+											<li class="nav-item">
+												<a class="nav-link active read" href="index.html">Home</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="info.html">Info</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="about.html">About</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="sources.html">Sources</a>
+											</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+			</div>
+        <!--Full page about the social aspect-->
+      <div class="py-3" style="color: transparent;"></div>
+      <div class="py-3 bg-light"></div>
+      <section class="p-5 bg-light">
+        <h1 style="font-family: 'varela round', san-serif;">SOCIAL</h1>
+        <div class="py-3" style="color: transparent;"></div>
+        <p class="p-3" style="font-family: 'varela round', san-serif;">This page is dedicated to the social aspects of how someone in our society could reduce their own personal carbon footprint</p>
+      </section>
+
+      <div class="py-5" style="color: transparent;"></div>
+      <div class="py-5" style="color: transparent;"></div>
+      <div class="container d-flex align-items-center justify-content-around flex-wrap">
+              <div class="box">
+                  <div class="body shadow shadow-lg">
+                      <div class="imgContainer"> <img src="https://assets-news.housing.com/news/wp-content/uploads/2021/06/14175932/A-guide-to-water-conservation-methods-and-its-importance-FB-1200x700-compressed.jpg" alt="" > </div>
+                      <div class="content d-flex flex-column align-items-center justify-content-center" >
+                          <div>
+                              <h3 class="read text-white fs-5">Reduce Daily Water Use</h3>
+                              <p class="read fs-6 text-white">It doesn’t mean that you shouldn’t drink any water in a day, I want to stay hydrated for my health as well, but you should try to limit the amount of water that you use to bathe, brush your teeth, wash your dishes, wash your clothes and flush your  toilets.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="box">
+                  <div class="body shadow shadow-lg">
+                      <div class="imgContainer"> <img src="http://prod-upp-image-read.ft.com/75e8de86-49b1-11ea-aeb3-955839e06441" alt=""> </div>
+                      <div class="content d-flex flex-column align-items-center justify-content-center">
+                          <div>
+                              <h3 class="read text-white fs-5">Go Electric</h3>
+                              <p class="read fs-6 text-white">Whether it’s an electric car or electric appliance, being electrically powered instead of gas-powered drastically reduces your carbon footprint and is ultimately helping the environment</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="box">
+                <div class="body shadow shadow-lg">
+                    <div class="imgContainer"> <img src="https://naveco.ca/wp-content/uploads/2019/04/Screen-Shot-2019-04-10-at-11.43.36-AM.png" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="read text-white fs-5">Install an energy source to power your home.</h3>
+                            <p class="read fs-6 text-white">Whether it’s some solar panels, hydro-electric turbines, wind turbines, or even a solar oven, these inexhaustible energy sources will always be viable in producing clean viable electricity, that you can use to power up different things or even sell it to the grid and be making extra money from it.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+      </div>
+
+        <!---Add space between section--->
+      <div class="p-5" style="color: transparent;"></div>
+        
+      <div class="container d-flex align-items-center justify-content-around flex-wrap">
+        <div class="box">
+          <div class="body shadow shadow-lg">
+            <div class="imgContainer"> <img src="https://www.greenbiz.com/sites/default/files/images/articles/featured/green_buildings_pupes_sstock.png" alt=""> </div>
+            <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                <h3 class="text-white read fs-5">Green Homes</h3>
+                <p class="fs-6 read text-white">A positive thing we can all do for our communities is to adopt eco-friendly practices at home by planting a native garden, using non-toxic household products, or turning the thermostat down three degrees in the winter and up three degrees in the summer to reduce CO2 emissions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="body shadow shadow-lg">
+            <div class="imgContainer"> <img src="https://d39l2hkdp2esp1.cloudfront.net/img/eps/E3970_2x/c/E3970_00.jpg?20180109005734" alt=""> </div>
+            <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                  <h3 class="text-white read fs-5">Buy Organic</h3>
+                  <p class="fs-6 read text-white">Buying plant-based, unprocessed foods from local farmer’s markets, green restaurants, or health food stores reduces the carbon footprint that you produce.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="body shadow shadow-lg">
+            <div class="imgContainer"> <img src="https://media.istockphoto.com/vectors/hand-open-for-drinking-tap-water-vector-id974210582?k=20&m=974210582&s=612x612&w=0&h=pNPNKKun41MhKuIzSx_uKaQcbdTugA7mdB_EZW_YkZ4=" alt=""> </div>
+            <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                  <h3 class="text-white read fs-5">Turn It Off!</h3>
+                  <p class="fs-6 read text-white">By just making sure that you are turning off the lights after you're done using a room before you go to bed, and before you leave the house. Doing this reduces the amount of electricity that your house needs to be using at that exact time, and it reduces your electricity bill </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!---Add space between section--->
+      <div class="p-5" style="color: transparent;"></div>
+
+      <div class="container d-flex align-items-center justify-content-around flex-wrap">
+        <div class="box">
+                <div class="body shadow shadow-lg">
+                  <div class="imgContainer"> <img src="https://cf.ltkcdn.net/save/images/orig/230910-1600x1030-does-unplugging-electronics-save-energy.jpg" alt=""> </div>
+                  <div class="content d-flex flex-column align-items-center justify-content-center">
+                      <div>
+                          <h3 class="text-white read fs-5">Unplug Devices</h3>
+                          <p class="fs-6 read text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                              </div>
+                          </div>
+                      </div>
+        </div>
+        <div class="box">
+            <div class="body shadow shadow-lg">
+                <div class="imgContainer"> <img src="https://recyclecoach.com/wp-content/uploads/2020/10/Image_1_Header-scaled-1.jpg" alt=""> </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white read fs-5">Recycle</h3>
+                        <p class="fs-6 read text-white">Whether it's throwing recycle-able items into the recycle bin in the trash can or choosing a more expensive metal water bottle instead of a cheap plastic water bottle. Even if you have a cheap plastic water bottle, try to reuse it 2-3 more times to help reduce your carbon footprint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="body shadow shadow-lg">
+                <div class="imgContainer"> <img src="https://www.gardentech.com/-/media/Images/GardenTech-NA/US/blog/Starting-Seeds-Right-in-Your-Garden/Starting_Seeds_Right_In_Your_Garden_header.jpg" alt=""> </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white read fs-5">Grow a Garden</h3>
+                        <p class="fs-6 read text-white">Planting and growing a garden in your home or apartment is an activity that reduces your carbon footprint and also can be a little hobby that you do in your spare time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+          <!---Add space between row--->
+          <div class="p-5" style="color: transparent;"></div>
+
+          <div class="container d-flex align-items-center justify-content-around flex-wrap">
+                <div class="box">
+                  <div class="body shadow shadow-lg">
+                    <div class="imgContainer"> <img src="https://media.istockphoto.com/vectors/volunteer-woman-holds-donation-box-with-old-used-clothes-ready-to-be-vector-id1175986554?k=20&m=1175986554&s=612x612&w=0&h=YktsS0HkFhshwv0juQEMt2sZz2VPAdkMiYB6SEutNFU=" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white read fs-5">Helping Companies</h3>
+                            <p class="fs-6 read text-white">Helping companies is one of the easiest ways to help you out if you feel guilty about being part of the cause to the size of our current carbon footprint and you want an easy way out, you could donate some of your extra time and money to help them continue the great work that they’re doing.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+          </div>
+        <!---Add space between section--->
+        <div class="p-5" style="color: transparent;"></div>
+        <div class="container d-flex align-items-center justify-content-center flex-wrap">
+          <button class="back btn btn-outline-secondary btn-lg shadow shadow-lg" onclick="return show('main_page', 'social_page');" id="return_soc" style="font-family: 'varela round', san-serif;">GO BACK</button>
+        </div>
+        <div class="py-5" style="color: transparent;"></div>
+    </div>
+
+    <!--Economic sub page starts here-->
+    <div id="economic_page" class="nospace" style="display: none">
+        <!--Navigation-->
+        <div id="main_page2">
+							<div class="header">
+								<!-- Links from the home page to other parts of the website such as the sources page, about us page, and the info page --> 
+								
+								
+								<div class= "menu_list navbar row" style="box-shadow: none;">
+									<a class="navbar-brand logo col-sm-2 " href="https://www.pfisd.net/weiss"><img src="img/logo.png" width="90px" height="90px" class="img-fluid img-responsive"></a>
+									<ul class="nav justify-content-center col-sm-8">
+											<li class="nav-item">
+												<a class="nav-link active read" href="index.html">Home</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="info.html">Info</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="about.html">About</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link read" href="sources.html">Sources</a>
+											</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+        <!--End of Navigation-->
+        
+          <!--Full page about the economical aspect-->
+          
+          <div class="py-3" style="color: transparent;"></div>
+          <div class="py-3 bg-light"></div>
+          <section class="p-5 bg-light">
+            <h1 class="read" style="font-family: 'varela round', san-serif;">ECONOMIC</h1>
+          <div class="py-3" style="color: transparent;"></div>
+          <p class="p-3 read" style="font-family: 'varela round', san-serif;">This page is dedicated to the economic tips and tricks the business can implement that could decrease their carbon footprint</p>
+          </section>
+          <div class="py-5" style="color: transparent;"></div>
+          <section class="p-5">
+            <div class="container d-flex align-items-center justify-content-around flex-wrap">
+                <div class="box">
+                  <div class="body shadow shadow-lg">
+                    <div class="imgContainer"> <img src="https://mk0paulsrubbisheu2nx.kinstacdn.com/wp-content/uploads/2018/07/Waste-Management-Recycling-Plant-1024x676.jpg" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white read fs-5">Landfill recycling</h3>
+                            <p class="fs-6 read text-white">Decomposition produce harmful methane emissions that damages the environment. Companies such as “Renergy” could partner with municipalities and food manufacturers to redirect their organic waste away from landfills and help reduce carbon emissions.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="box">
+                <div class="body shadow shadow-lg">
+                    <div class="imgContainer"> <img src="https://www.clipartkey.com/mpngs/m/23-230855_renewable-energy-logo-design.png" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="read text-white fs-5">Production of Renewable Energy</h3>
+                            <p class="read fs-6 text-white">More than 50 percent of electricity in the United States comes from polluting coal-fired power plants. Renewable energy sources like solar, wind and biomass reduce air pollution and generate no greenhouse gas emissions from fossil fuels.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="box">
+                    <div class="body shadow shadow-lg">
+                        <div class="imgContainer"> <img src="https://www.computersciencedegreehub.com/wp-content/uploads/2020/06/Is-Telecommunications-a-Growing-Field-1024x683.jpg" alt=""> </div>
+                        <div class="content d-flex flex-column align-items-center justify-content-around">
+                            <div>
+                                <h3 class="read text-white fs-5">Telecommunication</h3>
+                                <p class="read fs-6 text-white">Businesses should implement telecommunication meetings such as Zoom, Skype, or Microsoft Team instead of having to physically meet at a centralized location, which requires transportation to that location. Less transportation would mean less energy wasted on travel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            <div class="py-5" style="color: transparent;"></div>
+
+            <div class="container d-flex align-items-center justify-content-around flex-wrap">
+                <div class="box">
+                  <div class="body shadow shadow-lg">
+                    <div class="imgContainer"> <img src="https://image.freepik.com/free-vector/characters-people-analyzing-graphs-diagrams_53876-35238.jpg" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white read fs-5">Analyze Carbon Footprints</h3>
+                            <p class="fs-6 read text-white">Companies need to make sure to measure their amount of carbon emission rates in order to decide their next move. If this is done right, these companies could help reduce greenhouse gas emissions by a lot.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="body shadow shadow-lg">
+                            <div class="imgContainer"> <img src="https://www.eubusinessnews.com/wp-content/uploads/2020/04/What-is-Carbon-Offsetting-and-why-is-it-important.jpg" alt=""> </div>
+                            <div class="content d-flex flex-column align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="text-white read fs-5">Carbon Offset</h3>
+                                    <p class="fs-6 read text-white">Carbon offset is a global method of reducing carbon release in the atmosphere through investments in renewable energy projects and incrementing carbon storage through land restoration and planting trees. Businesses should invest in carbon offsets by funding “transparent” projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </section>
+        <div class="py-5" style="color: transparent;"></div>
+        <div class="container d-flex align-items-center justify-content-center flex-wrap">
+          <button class="back btn btn-outline-secondary btn-lg shadow shadow-lg" onclick="return show('main_page', 'economic_page');" id="return_eco" style="font-family: 'varela round', san-serif;">GO BACK</button>
+        </div>
+        <div class= "py-5" style="color: transparent"> </div>
+    </div>
+     <!-- Footer -->
+  
+    
+  <!---Add space between section--->
+	<div class="py-3" style="color: transparent;"></div>
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #74a478"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://twitter.com/WeissBPA" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <a class="navbar-brand logo col-sm-2 " href="https://www.pfisd.net/weiss"><img src="img/logo.png" width="90px" height="90px" class="img-responsive"></a>
+            
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">About Us</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #74a478; height: 2px"
+                />
+            <p>
+              This website was created by the Weiss High School Website Design Team and used in the state leadership conference for the BPA organization in the 2021-2022 school year.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Menu</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #74a478; height: 2px"
+                />
+            <p>
+              <a href="index.html" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="info.html" class="text-white">Info</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-white">About</a>
+            </p>
+            <p>
+              <a href="sources.html" class="text-white">Sources</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    
+  </footer>
+  </body>
+</html>

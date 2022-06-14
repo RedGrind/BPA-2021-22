@@ -1,0 +1,208 @@
+
+
+
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9));
+}
+
+/* Modal Content */
+.modal-content{
+  position: relative;
+  background-color: li;
+  margin: auto;
+  padding-top: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal1{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.7); /* Fallback color */
+  background-color: rgba(0,0,0,0.9) /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content1{
+  position: relative;
+  background-color:transparent;
+  margin: auto;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+
+.modal2{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0,0.7); /* Fallback color */
+  background-color: rgba(0,0,0,0.9);
+/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2{
+  position: relative;
+  background-color: #191414;
+  margin: auto;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/******modal-box style****/
+#modal-content-text > h1{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 40px;
+}
+
+#modal-content-paragraph{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 16px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+
+#modal-content-text{
+  color: white;
+  padding: 5%;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+
+
+
+
+html//
+    <div class="row">
+
+        <div class="col">
+          <div class="card">
+            <div class="card_head">
+              <img src="Screen Shot 2022-02-04 at 3.29.20 PM.png" width="20px" height="20px">
+            </div>
+            <div class="card_content">
+              <p><b>JavaScript Coordinator</b>: Daniel Mekuria</p>
+              <button id="myBtn">View Bio</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card_head">
+              <img src="Screen Shot 2022-02-04 at 3.29.20 PM.png" width="20px" height="20px">
+            </div>
+            <div class="card_content">
+              <p><b>CSS Coordinator</b>: An Tran</p>
+              <button id="myBtn2">View Bio</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card container">
+            <div class="card_head">
+              <img src="Screen Shot 2022-02-04 at 3.29.20 PM.png" width="20px" height="20px">
+            </div>
+            <div class="card_content">
+              <p><b>Researcher & HTML Coordinator</b>: Kamsi Ozorji</p> 
+              <button id="myBtn3">View Bio</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
